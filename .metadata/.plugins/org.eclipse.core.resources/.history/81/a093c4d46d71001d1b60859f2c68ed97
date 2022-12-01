@@ -1,0 +1,15 @@
+package exercicios;
+
+public class exer03 {
+
+	public static void main(String[] args) {
+
+		for (int i = 9; i > 0; --i) {
+			System.out.println(i);
+			
+			if(i == 1) {
+				System.out.println("FOI!");
+			}
+		}
+	}
+}
